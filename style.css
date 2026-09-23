@@ -1,0 +1,64 @@
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    color: aliceblue;
+}
+
+.h1_1_tag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.site-header h1 {
+	margin: 5;
+}
+
+.nav_1_tag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p_1_tag {
+    font-family: 'Courier New', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: aliceblue;
+}
+
+.first_box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.intro-text {
+    flex: 1 1 60%;
+}
+
+.first_image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first_image img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    background-color: rgb(47, 79, 79);
+    margin: 0;
+    padding: 20px;
+}
+
+.p_2_tag {
+    font-family: 'Courier New', 'Arial Narrow', Arial, sans-serif;
+    margin: 5;
+    line-height: 1.6;
+    text-align: center;
+    color: aliceblue;
+}
