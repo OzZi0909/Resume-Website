@@ -101,7 +101,7 @@ body {
 .background_6 {
     min-height: 100vh;
     box-sizing: border-box;
-  background-image: linear-gradient(to bottom, rgb(60, 90, 126), rgb(34, 52, 77));
+  background-image: linear-gradient(to bottom, rgb(58, 96, 143), rgb(33, 45, 63));
 }
 
 @view-transition {
@@ -156,4 +156,25 @@ body {
     line-height: 1.6;
     text-align: center;
     color: aliceblue;
+}
+
+.fourth_image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.fourth_image img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease;
+}
+
+.fourth_image img:hover {
+    transform: scale(1.04);
 }
